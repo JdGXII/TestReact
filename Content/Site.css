@@ -1,0 +1,51 @@
+﻿body {
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+div.sandbox_header input.submit {
+    display: none !important;
+}
+
+#header-returnLink {
+    padding: 8px;
+    background-color: #404040;
+    color: white;
+    font-size: 80%;
+}
+
+    #header-returnLink a {
+        color: blue;
+        text-decoration: none;
+    }
+
+#header-image {
+    background: url('https://contentserver.destinationrx.com/drxproductcontent/phoenix/assets/connecture_logo/admin/drx_connecture_color.png') no-repeat;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 80px !important;
+}
+
+#header-divider {
+    height: 12px;
+    background-color: #EF7627;
+}
